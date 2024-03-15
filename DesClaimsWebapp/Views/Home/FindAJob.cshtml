@@ -1,0 +1,55 @@
+﻿@using System.Security.Claims
+
+@{
+    ViewData["Title"] = "Jobs For you";
+}
+<h2>@ViewData["Title"].</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Job Type</th>
+            <th scope="col">Description</th>
+            <th scope="col">Link to Apply</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Accountant</td>
+            <td> Overseeing all aspects of financial accounting.</td>
+            <td>
+                <a href="https://www.seek.co.nz/jobs-in-accounting?tracking=SEM-GGL-SRC-Industry-003059&gclid=EAIaIQobChMIg8T_26SdhAMVio5LBR0hAQqSEAAYASAAEgLw5vD_BwE&gclsrc=aw.ds">
+                    <div style="height:100%;width:100%">
+                        Click Here to apply
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Chef</td>
+            <td>Cook some Yummy Food!</td>
+             <td>
+                <a href="https://www.seek.co.nz/jobs-in-hospitality-tourism/chefs-cooks">
+                    <div style="height:100%;width:100%">
+                        Click Here to apply
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Builder</td>
+            <td>Build some beautiful house!</td>
+            <td>
+                <a href="https://www.trademe.co.nz/a/jobs/trades-services/building-carpentry?gclid=EAIaIQobChMInL64zKWdhAMVLqlmAh2a_wi-EAAYASAAEgKRx_D_BwE">
+                    <div style="height:100%;width:100%">
+                        Click Here to apply
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>

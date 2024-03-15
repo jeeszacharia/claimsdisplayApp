@@ -1,0 +1,26 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Something went wrong";
+}
+@{
+    var message = Context.Request.Query["message"];
+}
+
+<h1 class="text-danger">Something Went Wrong</h1>
+<h2 class="text-danger">We could not sign you in, please try again later</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+       Something went wrong please try again later .
+    </p>
+}
+<div>
+   
+    <h1>Additional Error details</h1>
+
+    <p>@message</p>
+    
+</div>
+
+
